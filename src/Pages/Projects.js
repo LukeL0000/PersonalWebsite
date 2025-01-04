@@ -26,7 +26,7 @@ function Projects() {
                         <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
                             Hang Tight!
                             <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
-                                This page is work in progress, and will live soon. Page: Projects. Expected Completion: 02/2025
+                                This page (Projects) is work in progress, and will be live soon.
                             </p>
                         </p>
                         <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="small"

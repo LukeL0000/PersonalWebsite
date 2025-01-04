@@ -1,7 +1,6 @@
 {
   "name": "personalwebsite",
   "version": "0.1.0",
-  "homepage": "https://lukel0000.github.io/PersonalWebsite",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",

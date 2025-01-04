@@ -27,7 +27,7 @@ function Experience() {
                         <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
                             Hang Tight!
                             <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
-                                This page is work in progress, and will live soon. Page: Experience. Expected Completion: 02/2025
+                                This page (Experience) is work in progress, and will be live soon.
                             </p>
                         </p>
                     </header>
