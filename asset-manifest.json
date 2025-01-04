@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.677124e2.css",
+    "main.js": "/PersonalWebsite/static/js/main.403fcd30.js",
+    "static/media/2.jpg": "/PersonalWebsite/static/media/2.063413b5601066d45fb5.jpg",
+    "static/media/3.jpg": "/PersonalWebsite/static/media/3.07c40ecba16afa10db09.jpg",
+    "static/media/LukeLu_Resume.pdf": "/PersonalWebsite/static/media/LukeLu_Resume.4173c8d02f1f47aa1ef9.pdf",
+    "static/media/Email.png": "/PersonalWebsite/static/media/Email.9082177d266cee25a57b.png",
+    "index.html": "/PersonalWebsite/index.html",
+    "main.677124e2.css.map": "/PersonalWebsite/static/css/main.677124e2.css.map",
+    "main.403fcd30.js.map": "/PersonalWebsite/static/js/main.403fcd30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.677124e2.css",
+    "static/js/main.403fcd30.js"
+  ]
+}
