@@ -1,11 +1,10 @@
 {
   "name": "personalwebsite",
   "version": "0.1.0",
-  "homepage": "https://LukeL0000.github.io/PersonalWebsite",
+  "homepage": "http://lukel0000.github.io/PersonalWebsite",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
-    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
@@ -37,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "react-router-dom": "^7.1.1",
     "web-vitals": "^4.2.4"
   }
