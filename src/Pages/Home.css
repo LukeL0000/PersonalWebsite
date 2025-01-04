@@ -28,7 +28,7 @@
 .navbar a {
   float: left;
   display: block;
-  color: lightgray;
+  color: dimgray;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -36,7 +36,7 @@
 }
 
 .navbar a:hover {
-  color: darkgray; }
+  color: gray; }
 
 .Home-link {
   color: #61dafb;
