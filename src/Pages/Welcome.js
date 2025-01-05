@@ -43,7 +43,7 @@ function Home() {
                 <div id="aboutMe" style={{height: "100%", marginTop: "3%", marginLeft: "10%"}}>
                     <header className="Home-header" style={{float: "left", color:"black"}}>
                         <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
-                            I'm Luke.
+                            Hi, I'm Luke.
                             <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
                                 I am a contractor working with the Canadian Nuclear Laboratories to build software
                                 solutions that deliver transformational changes throughout the organization.
