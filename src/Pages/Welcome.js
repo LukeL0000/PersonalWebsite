@@ -3,6 +3,7 @@ import backgroundHome from './BGImages/3.jpg';
 import linkGithub from './Logos/Github_dark.png';
 import linkLinkedin from './Logos/Linkedin.png';
 import linkEmail from './Logos/Email.png';
+import linkResume from './Logos/Resume.png';
 import resume from './Resume/LukeLu_Resume.pdf';
 import './Home.css';
 
@@ -34,14 +35,14 @@ function Home() {
                 backgroundSize: 'cover',
                 minHeight: '100vh'
             }}>
-                <div className="navbar" style={{margin: "auto", width: "max-content", padding: "1%"}}>
+                <div className="navbar" style={{display:"none", margin: "auto", width: "max-content", padding: "1%"}}>
                     <a href="/Home">Home</a>
                     <a href="/Experience">Experience</a>
                     <a href="/Projects">Projects</a>
                     <a href={resume} target={"_blank"}>Resume</a>
                 </div>
-                <div id="aboutMe" style={{height: "100%", marginTop: "3%", marginLeft: "10%"}}>
-                    <header className="Home-header" style={{float: "left", color:"black"}}>
+                <div id="aboutMe" style={{height: "100%", marginLeft: "10%"}}>
+                    <header className="Home-header" style={{float: "left", color:"black", marginTop: "5%"}}>
                         <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
                             Hi, I'm Luke.
                             <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
@@ -56,14 +57,17 @@ function Home() {
                     </header>
                 </div>
                 <div style={{marginLeft: "10%"}}>
-                    <a href={'https://github.com/LukeL0000'} style={{paddingRight: "1%"}}>
-                        <img src={linkGithub} style={{width: "6%", height: "6%", margin: "0px"}}></img>
+                    <a href={'https://github.com/LukeL0000'} target={"_blank"} style={{paddingRight: "1%"}}>
+                        <img src={linkGithub} style={{width: "6.1%", height: "6.1%", margin: "0px"}}></img>
                     </a>
-                    <a href={'https://www.linkedin.com/in/lukeyanglu/'} style={{padding: "1%"}}>
-                        <img src={linkLinkedin} style={{width: "7%", height: "7%", margin: "0px"}}></img>
+                    <a href={'https://www.linkedin.com/in/lukeyanglu/'} target={"_blank"} style={{padding: "1%"}}>
+                        <img src={linkLinkedin} style={{width: "6%", height: "6%", margin: "0px"}}></img>
                     </a>
-                    <a href={'mailto:luke.yanglu@outlook.com'} style={{padding: "1%"}}>
+                    <a href={'mailto:luke.yanglu@outlook.com'} target={"_blank"} style={{padding: "1%"}}>
                         <img src={linkEmail} style={{width: "6%", height: "6%", margin: "0px"}}></img>
+                    </a>
+                    <a href={resume} target={"_blank"} style={{padding: "1%"}}>
+                        <img src={linkResume} style={{width: "4.65%", height: "4.65%", margin: "0px"}}></img>
                     </a>
                 </div>
 
