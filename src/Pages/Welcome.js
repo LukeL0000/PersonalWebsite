@@ -1,6 +1,6 @@
 import backgroundWelcome from './BGImages/2.jpg';
 import backgroundHome from './BGImages/3.jpg';
-import linkGithub from './Logos/Github_dark.png';
+import linkGithub from './Logos/Github_light.png';
 import linkLinkedin from './Logos/Linkedin.png';
 import linkEmail from './Logos/Email.png';
 import linkResume from './Logos/Resume.png';
@@ -35,42 +35,38 @@ function Home() {
                 backgroundSize: 'cover',
                 minHeight: '100vh'
             }}>
-                <div className="navbar" style={{display:"none", margin: "auto", width: "max-content", padding: "1%"}}>
-                    <a href="/Home">Home</a>
-                    <a href="/Experience">Experience</a>
-                    <a href="/Projects">Projects</a>
-                    <a href={resume} target={"_blank"}>Resume</a>
-                </div>
-                <div id="aboutMe" style={{height: "100%", marginLeft: "10%"}}>
-                    <header className="Home-header" style={{float: "left", color:"black", marginTop: "5%"}}>
-                        <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
-                            Hi, I'm Luke.
-                            <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
-                                I am a contractor working with the Canadian Nuclear Laboratories to build software
-                                solutions that deliver transformational changes throughout the organization.
+                <div style={{height:"10vh"}}></div>
+                <div style={{background:"#000000a5", borderRadius:"50px", width:"50%", padding:"2%", marginInline:"5%"}}>
+                    <div id="aboutMe">
+                        <header className="Home-header" style={{float: "left", color:"white"}}>
+                            <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
+                                Hi, I'm Luke.
+                                <p style={{fontSize: '30px', padding: '00px'}}>
+                                    I'm a contractor working with the Canadian Nuclear Laboratories to build software
+                                    solutions that deliver transformational changes throughout the organization. 
+                                    <br></br><br></br>
+                                    Academically, I pursue an undergraduate degree in computer science at the University of
+                                    British Columbia.
+                                    <br></br>
+                                </p>
                             </p>
-                            <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
-                                I am also pursuing an undergraduate degree in computer science at the University of
-                                British Columbia.
-                            </p>
-                        </p>
-                    </header>
+                        </header>
+                    </div>
+                    <div>
+                        <a href={'https://github.com/LukeL0000'} target={"_blank"} style={{paddingRight: "1%"}}>
+                            <img src={linkGithub} style={{width: "6.1%", height: "6.1%", margin: "0px"}}></img>
+                        </a>
+                        <a href={'https://www.linkedin.com/in/lukeyanglu/'} target={"_blank"} style={{padding: "1%"}}>
+                            <img src={linkLinkedin} style={{width: "6%", height: "6%", margin: "0px"}}></img>
+                        </a>
+                        <a href={'mailto:luke.yanglu@outlook.com'} target={"_blank"} style={{padding: "1%"}}>
+                            <img src={linkEmail} style={{width: "6%", height: "6%", margin: "0px"}}></img>
+                        </a>
+                        <a href={resume} target={"_blank"} style={{padding: "1%"}}>
+                            <img src={linkResume} style={{width: "4.65%", height: "4.65%", margin: "0px"}}></img>
+                        </a>
+                    </div>
                 </div>
-                <div style={{marginLeft: "10%"}}>
-                    <a href={'https://github.com/LukeL0000'} target={"_blank"} style={{paddingRight: "1%"}}>
-                        <img src={linkGithub} style={{width: "6.1%", height: "6.1%", margin: "0px"}}></img>
-                    </a>
-                    <a href={'https://www.linkedin.com/in/lukeyanglu/'} target={"_blank"} style={{padding: "1%"}}>
-                        <img src={linkLinkedin} style={{width: "6%", height: "6%", margin: "0px"}}></img>
-                    </a>
-                    <a href={'mailto:luke.yanglu@outlook.com'} target={"_blank"} style={{padding: "1%"}}>
-                        <img src={linkEmail} style={{width: "6%", height: "6%", margin: "0px"}}></img>
-                    </a>
-                    <a href={resume} target={"_blank"} style={{padding: "1%"}}>
-                        <img src={linkResume} style={{width: "4.65%", height: "4.65%", margin: "0px"}}></img>
-                    </a>
-                </div>
-
             </div>
         </div>
     );
