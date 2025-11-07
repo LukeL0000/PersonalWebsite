@@ -24,7 +24,7 @@ function Home() {
                         <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
                             Hi, I'm Luke.
                             <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
-                                I am working with D-Wave Quantum Inc. as a co-op, building the next generation of our front-end and LEAP Quantum Cloud API.
+                                I am working with D-Wave Quantum Inc. as a co-op, building the next generation of our LEAP Quantum Cloud's front-end and API.
                             </p>
                             <p style={{fontSize: '30px', padding: '00px', marginRight: '45%'}}>
                                 I am also pursuing an undergraduate degree in computer science at the University of
