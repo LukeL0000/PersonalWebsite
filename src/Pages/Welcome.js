@@ -42,10 +42,10 @@ function Home() {
                             <p style={{fontSize: '100px', padding: '00px', margin: '0px'}}>
                                 Hi, I'm Luke.
                                 <p style={{fontSize: '30px', padding: '00px'}}>
-                                    I'm a contractor working with the Canadian Nuclear Laboratories to build software
-                                    solutions that deliver transformational changes throughout the organization. 
+                                    I am working with D-Wave Quantum Inc. as a co-op, building 
+                                    the next generation of our LEAP Quantum Cloud's front-end and API. 
                                     <br></br><br></br>
-                                    Academically, I pursue an undergraduate degree in computer science at the University of
+                                    I am also pursuing an undergraduate degree in computer science at the University of
                                     British Columbia.
                                     <br></br>
                                 </p>
